@@ -8,14 +8,14 @@ h1{
 }
 
 /* por id. Um por página. */
-#primeiro{
+#terceiro{
 	color:blue;
 }
 
 /* por classe. Vários por página.*/
 
-/* classe link restringida para ser usada na tag body->a de nome link*/
-body a.link{
+/* classe link restringida(regra) para ser usada na tag body->a de nome link*/
+body p a.link{
 	color:blue;
 }
 

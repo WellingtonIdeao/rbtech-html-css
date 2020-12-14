@@ -1,0 +1,99 @@
+/* fonte de todo body*/
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+a:link, a:visited{
+	color: #ff6600;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+/* estilizando id wrap (da div)
+tamanho - (largurax altura)
+centralizando margin - (parte externa da div)) top right bottom left (sentido horário) 
+cor background.   
+padding - margin parte interna 
+ */
+#wrap{
+	width: 920px;
+	margin: auto;
+	background: #e3e3e3;
+	padding: 10px 20px;
+
+}
+
+
+/*estilizando lista não ordenada
+(aplicando em toda lista)
+*/
+header nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+/*estilizando header nav ul li
+cada elemento da lista não ordenada
+*/
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+
+/*estilizando cada link (tag <a>)*/
+header nav ul li a{
+	font-size: 18px;
+	/*color: #ff6600;
+	text-decoration: none;*/
+}
+
+/*estilizando um link(tag <a>)
+quando o mouse estiver por cima(over)
+
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+*/
+
+/*estilizando div content*/
+#content{
+	float: left;
+	width: 620px;
+}
+
+/*estilizando div sidebar*/
+#sidebar{
+	float: right;
+	width: 300px;
+}
+
+/*estilizando div sidebar -> ul(lista não ordenada)*/
+#sidebar ul{
+	list-style: none;
+}
+
+/*estilizando div sidebar-> ul->li->a (cada link tag <a>) 
+#sidebar ul li a{
+	color: #ff6600;
+	text-decoration: none;
+}
+*/
+
+/*estilizando div sidebar-> ul->li->a (cada link tag <a>)
+ao passar mouse por cima(over)
+
+#sidebar ul li a:hover{
+	text-decoration: underline;	
+}
+*/
+
+/*estilizando footer - desfazendo as flutuações nas divs content/sidebar
+colocando o footer na posição original */
+footer{
+	clear: both;
+}
+
+
